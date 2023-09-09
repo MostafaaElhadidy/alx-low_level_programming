@@ -5,14 +5,15 @@
  *
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-for(char letter ='a';letter<='z';letter++){
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-    putchar(letter);
-
-}
-
+	for (i = 0; i < 26; i++)
+	{
+		putchar(alp[i]);
+	}
+	putchar('\n');
 	return (0);
 }
